@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SwordStory"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/payt/Desktop/SwordStory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/payt/Desktop/SwordStory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/payt/Desktop/SwordStory/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SwordStory">
+				<Option output="/Users/payt/Desktop/SwordStory/cmake-build-debug/SwordStory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/payt/Desktop/SwordStory/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 SwordStory"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SwordStory/fast">
+				<Option output="/Users/payt/Desktop/SwordStory/cmake-build-debug/SwordStory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/payt/Desktop/SwordStory/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 SwordStory/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/payt/Desktop/SwordStory/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Abilities.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Abilities.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Combat.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Combat.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Database.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Database.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Embark.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Embark.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Enemy.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Enemy.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Game.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Game.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Items.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Items.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Library.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Library.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Market.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Market.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Mission.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Mission.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/NewGame.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/NewGame.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Player.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Player.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Shop.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Shop.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Spells.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Spells.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Weapons.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/Weapons.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/main.cpp">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/sound/my_header.h">
+			<Option target="SwordStory"/>
+		</Unit>
+		<Unit filename="/Users/payt/Desktop/SwordStory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
